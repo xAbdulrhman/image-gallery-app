@@ -1,0 +1,190 @@
+.a0 {
+    background-image: url("https://i.pinimg.com/originals/0e/60/68/0e6068eb08dddb94950bbb177abf1c52.jpg");
+}
+
+.a1 {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD4EZBOM_HXNbOCYXv_g_EM927APb4Xbezj0ygwkfDsbxjWI5CxrbP8obamUBQ3WJxTg0&usqp=CAU");
+}
+
+h1 {
+    text-align: center;
+    color: rgb(159, 226, 250);
+    font-size: 50px;
+    border-style: ridge;
+    border-color: antiquewhite;
+    text-transform: uppercase;
+    font-family: Verdana;
+    margin-top: -10px;
+}
+
+li {
+    list-style-type: circle;
+}
+
+a {
+    color: rgb(80, 232, 224);
+    float: right;
+}
+
+input[type=search] {
+    font-size: 15px;
+    text-align: center;
+    border: 3px solid #a700cc;
+    padding: 10px 10px 10px 10px;
+    height: 20px;
+    color: #9DBFAF;
+}
+
+input[type=search]:focus {
+    width: 40%;
+    color: #a700cc;
+}
+
+input[type=file],
+label {
+    color: rgb(134, 161, 92);
+    font-family: sans-serif;
+}
+
+form {
+    text-align: center;
+}
+
+img {
+    border-style: dotted;
+    display: flexbox;
+}
+
+
+/* button {
+    color: rgb(82, 76, 5);
+    border: 2%;
+    text-decoration: underline;
+    font-family: Georgia;
+    background-color: beige;
+    padding: 8px;
+    font-size: 90%;
+} */
+
+th,
+td {
+    font-size: 30px;
+    padding: 25px;
+    border-style: solid;
+    color: cadetblue;
+    border-color: gray;
+}
+
+table {
+    margin: 40px 20px 20px 24%;
+    width: 50%;
+    border-style: double;
+    border-color: gray;
+}
+
+#mm img {
+    border-style: ridge;
+}
+
+#up img {
+    border-style: double;
+}
+
+h3 {
+    color: cadetblue;
+    text-align: center;
+}
+
+#c1,
+#c2,
+.e {
+    color: antiquewhite;
+    float: left;
+    font-family: 'Trebuchet MS';
+}
+
+.txt {
+    outline: none;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 20%;
+    background: #fff;
+    margin-bottom: 0.5%;
+    border: 1px solid #ccc;
+    padding: 1%;
+    color: #555;
+    font: 100% Arial, Helvetica, sans-serif;
+}
+
+.txt:focus {
+    box-shadow: 0 0 5px #43D1AF;
+    padding: 1.2%;
+    border: 1px solid #43D1AF;
+}
+
+
+/* button styling, it's briliant isn't it?  */
+
+button {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 20px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0 16px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+button:hover {
+    background-color: #fff;
+}
+
+button:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+}
+
+@media (min-width: 700px) {
+    button {
+        min-width: 120px;
+        padding: 0 25px;
+    }
+}
+
+
+/* input-file button style */
+
+#file {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: .375em;
+    box-shadow: none;
+    box-sizing: border-box;
+    color: #363636;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    height: 2.5em;
+    justify-content: center;
+    line-height: 1.5;
+    padding: calc(.5em - 1px) 1em;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: top;
+    white-space: nowrap;
+}
